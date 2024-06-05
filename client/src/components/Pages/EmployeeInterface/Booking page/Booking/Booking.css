@@ -1,0 +1,28 @@
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background-color: white;
+    margin: 50px 100px;
+    border-radius: 20px;
+  }
+  @media (max-width: 410px) {
+    .activities-container {
+      margin: 0px;
+    }
+  }
+  .booking-main {
+    background: white;
+    padding: 20px;
+    margin: 50px 100px;
+    border-radius: 20px;
+  }
+  .facility-card h2 {
+    margin-left: 50px;
+    text-align: left;
+  }
+  .facility-heading {
+    text-align: center;
+    font-size: 18px;
+  }
